@@ -1,0 +1,8 @@
+<div>
+  <ul class="list-group">
+    <li *ngFor="let user of users" class="list-group-item">
+      {{ user.name }} - {{ user.age }}
+      <app-user-details [user]="user"></app-user-details>
+    </li>
+  </ul>
+</div>
