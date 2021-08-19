@@ -1,0 +1,8 @@
+<ul *ngFor="let land of property; let i = index;">
+  <li>
+    {{ land.name }} - is of size {{ land.size }}. Date is {{ land.date|date }}
+    <button (click)="removeProperty(i)">delete</button>
+  </li>
+</ul>
+<p *ngIf="property.length < 1">No properties at the moment</p>
+

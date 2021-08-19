@@ -16,6 +16,8 @@ import { StrikethroughDirective } from './strikethrough.directive';
 import { DateCountPipe } from './date-count.pipe';
 import { GoalFormComponent } from './goal-form/goal-form.component';
 import { UsernameComponent } from './username/username.component';
+import { PropertyComponent } from './property/property.component';
+import { SubscriptionsFormComponent } from './subscriptions-form/subscriptions-form.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +34,8 @@ import { UsernameComponent } from './username/username.component';
     DateCountPipe,
     GoalFormComponent,
     UsernameComponent,
+    PropertyComponent,
+    SubscriptionsFormComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
